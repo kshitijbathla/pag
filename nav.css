@@ -1,0 +1,48 @@
+/* Navigation
+----------------------------------------------- */
+nav
+ {
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  }
+  nav h2 {
+    
+    background-size: 42px 42px;
+    cursor: pointer;
+    height: 42px;
+    margin: 50px 14px 20px 14px;
+    
+    width: 42px; }
+  nav ul {
+    margin: 0 19px 0 14px;
+    padding: 43px 0 0 0;
+    position: relative; }
+    nav ul span {
+      background: url(../images/toggle.png);
+      background-size: 28px 28px;
+      content: '';
+      display: block;
+      height: 28px;
+      left: 7px;
+      position: absolute;
+      text-indent: -9999px;
+      top: 0;
+      width: 28px; }
+    nav ul li {
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 15px;
+      text-transform: uppercase; }
+      nav ul li a {
+        color: #fff;
+        display: inline-block;
+        padding: 15px 0; }
+        nav ul li a:hover {
+          color: #b1b1b1; }
+        nav ul li a.current {
+          color: #b1b1b1; }
